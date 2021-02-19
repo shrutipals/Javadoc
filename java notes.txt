@@ -1,0 +1,112 @@
+What is Java?
+is the high-level, object-oriented, robust, secure programming language, platform-independent, high performance, Multithreaded, and portable programming language.
+A list of most important features of Java language is given below.
+
+Java Features
+Simple
+Object-Oriented
+Portable
+Platform independent
+Secured
+Robust
+Architecture neutral
+Interpreted
+High Performance
+Multithreaded
+Distributed
+Dynamic
+
+
+
+---class keyword is used to declare a class in java.
+---public keyword is an access modifier which represents visibility. It means it is visible to all.
+---static is a keyword. If we declare any method as static, it is known as the static method. The core advantage of the static method is that there is no need to create an object to invoke the static method. The main method is executed by the JVM, so it doesn't require to create an object to invoke the main method. So it saves memory.
+---void is the return type of the method. It means it doesn't return any value.
+---main represents the starting point of the program.
+---String[] args is used for command line argument. We will learn it later.
+---System.out.println() is used to print statement. Here, System is a class, out is the object of PrintStream class, println() is the method of PrintStream class. We will learn about the internal working of System.out.println statement later.
+
+
+Java Variable:
+A variable is a container which holds the value while the Java program is executed. A variable is assigned with a data type.
+
+Variable is a name of memory location. There are three types of variables in java: local, instance and static.
+
+There are two types of data types in Java: primitive and non-primitive.
+
+
+
+Java oops concept:
+Object-Oriented Programming is a paradigm that provides many concepts, such as inheritance, data binding, polymorphism, etc.Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects.
+
+
+
+what is an object ?
+The Object is the real-time entity having some state and behavior.Object is an instance of the class having the instance variables as the state of the object and the methods as the behavior of the object.
+
+Constructor :
+The constructor can be defined as the special type of method that is used to initialize the state of an object. It is invoked when the class is instantiated, and the memory is allocated for the object. Every time, an object is created using the new keyword, the default constructor of the class is called. The name of the constructor must be similar to the class name. The constructor must not have an explicit return type.
+
+---Default Constructor: default constructor is the one which does not accept any value. The default constructor is mainly used to initialize the instance variable with the default values.
+
+---Parameterized Constructor: The parameterized constructor is the one which can initialize the instance variables with the given values. In other words, we can say that the constructors which can accept the arguments are called parameterized constructors.
+
+Java Constructor	                                                                                                 Java Method
+A constructor is used to initialize the state of an object.	                                    A method is used to expose the behavior of an object.
+A constructor must not have a return type.	                                                     A method must have a return type.
+The constructor is invoked implicitly.	                                                            The method is invoked explicitly.
+The Java compiler provides a default constructor if you don't have any constructor in a class.	   The method is not provided by the compiler in any case.
+The constructor name must be same as the class name.	                                            The method name may or may not be same as the class name.
+
+
+
+ What is the static variable?
+The static variable is used to refer to the common property of all objects (that is not unique for each object), e.g., The company name of employees, college name of students, etc. Static variable gets memory only once in the class area at the time of class loading.
+
+
+
+Class
+Collection of objects is called class. It is a logical entity.
+A class can also be defined as a blueprint from which you can create an individual object. 
+
+Inheritance:
+When one object acquires all the properties and behaviors of a parent object, it is known as inheritance.
+class Subclass-name extends Superclass-name  
+{  
+   //methods and fields  
+}  
+The extends keyword indicates that you are making a new class that derives from an existing class
+
+types of inheritance:
+1.Single level Inheritance 
+When a class inherits another class, it is known as a single inheritance. In the example given below, Dog class inherits the Animal class, so there is the single inheritance.
+
+2.Multilevel Inheritance:
+When there is a chain of inheritance, it is known as multilevel inheritance. As you can see in the example given below, BabyDog class inherits the Dog class which again inherits the Animal class, so there is a multilevel inheritance.
+
+3.Hierarchical Inheritance:
+When two or more classes inherits a single class, it is known as hierarchical inheritance. In the example given below, Dog and Cat classes inherits the Animal class, so there is hierarchical inheritance.
+
+
+polymorphism:
+If one task is performed in different ways, it is known as polymorphism.In Java, we use method overloading and method overriding to achieve polymorphism.
+
+What is method overloading?
+Method overloading is the polymorphism technique which allows us to create multiple methods with the same name but different signature. We can achieve method overloading in two ways.
+
+Changing the number of arguments
+Changing the return type
+
+What is method Overriding?
+if subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+In other words, If a subclass provides the specific implementation of the method that has been declared by one of its parent class, it is known as method overriding.
+
+
+Abstraction:
+Hiding internal details and showing functionality is known as abstraction. For example phone call, we don't know the internal processing.
+In Java, we use abstract class and interface to achieve abstraction.
+
+this can b acheived by using the private method
+
+encapsulation:
+Binding (or wrapping) code and data together into a single unit are known as encapsulation. For example, a capsule, it is wrapped with different medicines.
